@@ -1,5 +1,6 @@
 <?php
 require_once '../php/init.php';
+check_session();
 if(isset($_GET['id'])){
 $data = getId();
 }else{
