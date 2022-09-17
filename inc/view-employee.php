@@ -1,5 +1,6 @@
 <?php
 require_once '../php/init.php';
+check_session();
 $emp_record = getId();
 ?>
 <div class="container mt-5">
