@@ -19,7 +19,7 @@ function signUp()
             $user = $user->register();
             $_SESSION['fullname']   = $user['fullname'];
             $_SESSION['user_id']    = $user['user_id'];
-            header('Location:/php_oop_crud');
+            header('Location:/php_ajax_crud');
         }
     }
 }
@@ -43,7 +43,7 @@ function logIn()
         }else{
             $_SESSION['fullname']   = $user['fullname'];
             $_SESSION['user_id']    = $user['user_id'];
-            header('Location:/php_oop_crud');
+            header('Location:/php_ajax_crud');
         }
     }
 }
