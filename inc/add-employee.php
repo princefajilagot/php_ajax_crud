@@ -1,5 +1,6 @@
 <?php
 require_once '../php/init.php';
+check_session();
 $validate = insert();
 ?>
 <div id="addEmployee">
