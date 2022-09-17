@@ -1,7 +1,7 @@
 <?php logout(); ?>
 <nav id="navbar-example2" class="navbar bg-dark px-3 mb-3">
     <div class="container">
-        <a class="navbar-brand text-white" href="/php_oop_crud">Employee Management System</a>
+        <a class="navbar-brand text-white" href="/php_ajax_crud">Employee Management System</a>
         <ul class="nav nav-pills">
             <?php if(!isset($_SESSION['user_id'])){ ?>
                 <li class="nav-item">
