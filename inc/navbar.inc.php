@@ -19,7 +19,7 @@
                         <li><a class="dropdown-item" href="#scrollspyHeading3">Admin Profile</a></li>
                         <li><a class="dropdown-item" href="#scrollspyHeading4">Settings</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/php_oop_crud?action=logout">Logout</a></li>
+                        <li><a class="dropdown-item" href="/php_ajax_crud?action=logout">Logout</a></li>
                     </ul>
                 </li>
                 <?php } ?>
