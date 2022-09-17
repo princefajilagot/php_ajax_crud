@@ -1,11 +1,9 @@
-# php_ajax_crud
-PHP AJAX sample project with crud functionalities
+# php_oop_crud
+PHP Object Oriented Programming sample project with crud functionalities
 
-A simple and basic system to add, edit, delete and view using PHP / AJAX / OOP and MySQL.
+A simple and basic system to add, edit, delete and view using PHP OOP and MySQL.
 
 Some hightlights:
-
-*Javascript / AJAX
 
 *OOP
 
