@@ -44,7 +44,7 @@ $emp_record = getId();
             <div class="row mb-3">
                 <div class="col-md-6">
                     <label class="mb-2" for="#dept"><strong>Department</strong></label>
-                    <input class="form-control" id="dept" id type="text" value="<?php echo htmlspecialchars($emp_record['address'], ENT_QUOTES); ?>" disabled>
+                    <input class="form-control" id="dept" id type="text" value="<?php echo htmlspecialchars($emp_record['department'], ENT_QUOTES); ?>" disabled>
                 </div>
                 <div class="col-md-6">
                     <label class="mb-2" for="#dept"><strong>Status</strong></label>
