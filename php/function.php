@@ -156,14 +156,14 @@ function logout()
         unset($_SESSION['user_id']);
         unset($_SESSION['fullname']);
         session_destroy();
-        header('Location:/php_oop_crud');
+        header('Location:/php_ajax_crud');
     }
 }
 
 function check_session()
 {
     if(!isset($_SESSION['user_id'])){
-        header('Location:/php_oop_crud/login.php');
+        header('Location:/php_ajax_crud/login.php');
     }
 }
 ?>
