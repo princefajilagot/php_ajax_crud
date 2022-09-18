@@ -2,7 +2,7 @@
 require_once 'php/init.php';
 if(isset($_SESSION['user_id']))
 {
-    header('Location:/php_oop_crud');
+    header('Location:/php_ajax_crud');
 }
 $error = logIn();   
 ?>
