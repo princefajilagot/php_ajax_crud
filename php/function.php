@@ -145,6 +145,7 @@ function delete()
                                 <strong>Holy guacamole!</strong> You have successfully deleted employee records!
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             </div>';
+            return $alertMessage;
         }
     }
 }
